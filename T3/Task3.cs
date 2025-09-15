@@ -1,31 +1,25 @@
-﻿using MLOOP2_L3.T2;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
+﻿using System.Text.Json;
 
 namespace MLOOP2_L3.T3
 {
     internal class Task3 : ITask
     {
         public static string Name => "Завдання 3";
-        private static string defaultFileName => "phones.json";
+        private static string defaultFileName => "task3.json";
         private const int DAYS_IN_YEAR = 365;
 
-        private static List<Phone> phones;
+        private static Company company;
 
         public static void Start()
         {
             try
             {
                 string jsonString = File.ReadAllText(defaultFileName);
-                phones = JsonSerializer.Deserialize<List<Phone>>(jsonString) ?? [];
+                company = JsonSerializer.Deserialize<Company>(jsonString) ?? new Company();
             }
             catch
             {
-                phones = [];
+                company = new Company();
             }
 
             DoSomeLINQ();
@@ -34,57 +28,30 @@ namespace MLOOP2_L3.T3
 
         private static void DoSomeLINQ()
         {
-            int NumOfPhones = phones.Count();
-            int NumOfPhonesIfPriceIsMore100 = phones.Where(p => p.Price > 100).Count();
-            int NumOfPhonesIfPriceIsMore400AndLessThan700 = phones.Where(p => p.Price > 400 && p.Price < 700).Count();
+            List<Employed> employee = company.Employee;
 
-            Dictionary<string, int> NumOfPhonesByEachManufacturer = phones.GroupBy(p => p.Manufacturer).ToDictionary(group => group.Key, group => group.Count());
-            Dictionary<string, int> NumOfPhonesByEachModel = phones.GroupBy(p => p.Name).OrderBy(group => group.Count()).Reverse().ToDictionary(group => group.Key, group => group.Count());
-            Dictionary<int, int> NumOfPhonesByEachYear = phones.GroupBy(p => p.DateOfRelease.Year).OrderBy(group => group.Key).Reverse().ToDictionary(group => group.Key, group => group.Count());
+            int countOfEmployee = employee.Count;
+            decimal totalMounthlyWage = employee.Sum(e => e.MounthlyWage);
 
-            Phone minPricePhone = phones.OrderBy(p => p.Price).First();
-            Phone maxPricePhone = phones.OrderBy(p => p.Price).Last();
+            List<Employed> top10WIthHighestExperience = 
+                employee.OrderBy(e => e.ExperienceInDays)
+                .Reverse()
+                .Take(10).ToList();
 
-            Phone oldestPhone = phones.OrderBy(p => p.DateOfRelease).First();
-            Phone newestPhone = phones.OrderBy(p => p.DateOfRelease).Last();
+            Employed youngestWithHighEducation = 
+                top10WIthHighestExperience
+                .Where(e => e.DoesGraduetedHighEducation)
+                .OrderBy(e => e.Age)
+                .First();
 
-            float averagePrice = phones.Average(p => p.Price);
+            List<Employed> managers = employee.Where(e => e.jobTitle == Employed.JobTitle.Manager).ToList();
+            Employed theOldestManager = managers.OrderBy(e => e.Age).Last();
+            Employed theYoungestManager = managers.OrderBy(e => e.Age).First();
 
-            List<Phone> fiveMostExpensivePhones = phones.OrderBy(p => p.Price).Reverse().Take(5).ToList();
-            List<Phone> fiveCheapestPhones = phones.OrderBy(p => p.Price).Take(5).ToList();
+            Dictionary<Employed.JobTitle, List<Employed>> peopleWhoBornAtOctober = employee.Where(e => e.DateOfBirth.Month == 10).GroupBy(e => e.jobTitle).ToDictionary(group => group.Key, group => group.ToList());
 
-            List<Phone> threeOldestPhones = phones.OrderBy(p => p.DateOfRelease).Take(3).ToList();
-            List<Phone> threeNewestPhones = phones.OrderBy(p => p.DateOfRelease).Reverse().Take(3).ToList();
-
-            Console.WriteLine("\n === СТАТИСТИКА ТЕЛЕФОНІВ ===");
-            Console.WriteLine($" Загальна кількість телефонів: {NumOfPhones}");
-            Console.WriteLine($" Телефонів дорожче 100: {NumOfPhonesIfPriceIsMore100}");
-            Console.WriteLine($" Телефонів від 400 до 700: {NumOfPhonesIfPriceIsMore400AndLessThan700}");
-            Console.WriteLine($" Середня ціна: {averagePrice:F2}");
-
-            Console.WriteLine("\n === КІЛЬКІСТЬ ПО ВИРОБНИКАХ ===");
-            foreach (var manufacturer in NumOfPhonesByEachManufacturer)
-                Console.WriteLine($" {manufacturer.Key}: {manufacturer.Value}");
-
-            Console.WriteLine("\n === КІЛЬКІСТЬ ПО МОДЕЛЯХ ===");
-            foreach (var model in NumOfPhonesByEachModel)
-                Console.WriteLine($" {model.Key}: {model.Value}");
-
-            Console.WriteLine("\n === КІЛЬКІСТЬ ПО РОКАХ ===");
-            foreach (var year in NumOfPhonesByEachYear)
-                Console.WriteLine($" {year.Key}: {year.Value}");
-
-            Console.WriteLine("\n === ЕКСТРЕМАЛЬНІ ЗНАЧЕННЯ ===");
-            Console.WriteLine($" Найдешевший: {minPricePhone}");
-            Console.WriteLine($" Найдорожчий: {maxPricePhone}");
-            Console.WriteLine($" Найстарший: {oldestPhone}");
-            Console.WriteLine($" Найновіший: {newestPhone}");
-
-            Console.WriteLine("\n === ТОП СПИСКИ ===");
-            FinePrint<Phone>.PrintList(fiveMostExpensivePhones, "5 найдорожчих телефонів");
-            FinePrint<Phone>.PrintList(fiveCheapestPhones, "5 найдешевших телефонів");
-            FinePrint<Phone>.PrintList(threeOldestPhones, "3 найстарших телефони");
-            FinePrint<Phone>.PrintList(threeNewestPhones, "3 найновіших телефони");
+            List<Employed> allVladimirs = employee.Where(e => e.fullName.name.ToLower() == "vladimir" || e.fullName.name.ToLower() == "володимир").ToList();
+            Employed youngestVladimir = employee.OrderBy(e => e.Age).First();
         }
     }
 }

@@ -13,13 +13,6 @@
             Electricity
         }
 
-        public record FullName
-        (
-            string? name,
-            string? surname,
-            string? patronymic
-        );
-
         public int ID { get; init; }
         public string? Name { get; init; }
         public string? Description { get; init; }
