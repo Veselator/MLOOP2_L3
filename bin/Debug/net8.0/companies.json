@@ -1,0 +1,142 @@
+[
+  {
+    "ID": 1,
+    "Name": "Food Express",
+    "Description": "Служба доставки їжі",
+    "NumOfEmployees": 50,
+    "Address": "Київ, вул. Хрещатик, 10",
+    "DateOfFoundation": "2020-03-15T00:00:00",
+    "Area": 2,
+    "CEO": {
+      "name": "Олександр",
+      "surname": "Іваненко",
+      "patronymic": "Петрович"
+    }
+  },
+  {
+    "ID": 2,
+    "Name": "Food Palace",
+    "Description": "Мережа ресторанів",
+    "NumOfEmployees": 250,
+    "Address": "Лондон, Baker Street, 221B",
+    "DateOfFoundation": "2019-06-20T00:00:00",
+    "Area": 2,
+    "CEO": {
+      "name": "James",
+      "surname": "White",
+      "patronymic": null
+    }
+  },
+  {
+    "ID": 3,
+    "Name": "TechSolutions",
+    "Description": "IT консалтинг",
+    "NumOfEmployees": 150,
+    "Address": "Львів, пр. Свободи, 25",
+    "DateOfFoundation": "2021-01-10T00:00:00",
+    "Area": 1,
+    "CEO": {
+      "name": "Марія",
+      "surname": "Коваленко",
+      "patronymic": "Василівна"
+    }
+  },
+  {
+    "ID": 4,
+    "Name": "MarketPro",
+    "Description": "Маркетингове агентство",
+    "NumOfEmployees": 80,
+    "Address": "Одеса, Дерибасівська, 15",
+    "DateOfFoundation": "2022-05-12T00:00:00",
+    "Area": 2,
+    "CEO": {
+      "name": "Андрій",
+      "surname": "Петренко",
+      "patronymic": "Михайлович"
+    }
+  },
+  {
+    "ID": 5,
+    "Name": "DigitalWave",
+    "Description": "Розробка мобільних додатків",
+    "NumOfEmployees": 320,
+    "Address": "Лондон, Oxford Street, 100",
+    "DateOfFoundation": "2018-09-01T00:00:00",
+    "Area": 1,
+    "CEO": {
+      "name": "Sarah",
+      "surname": "Black",
+      "patronymic": null
+    }
+  },
+  {
+    "ID": 6,
+    "Name": "Global Marketing",
+    "Description": "Міжнародний маркетинг",
+    "NumOfEmployees": 200,
+    "Address": "Лондон, Piccadilly, 50",
+    "DateOfFoundation": "2020-11-08T00:00:00",
+    "Area": 2,
+    "CEO": {
+      "name": "Michael",
+      "surname": "White",
+      "patronymic": null
+    }
+  },
+  {
+    "ID": 7,
+    "Name": "Cinema Studios",
+    "Description": "Виробництво фільмів",
+    "NumOfEmployees": 450,
+    "Address": "Голлівуд, Sunset Blvd, 1000",
+    "DateOfFoundation": "2015-04-22T00:00:00",
+    "Area": 4,
+    "CEO": {
+      "name": "Robert",
+      "surname": "Johnson",
+      "patronymic": null
+    }
+  },
+  {
+    "ID": 8,
+    "Name": "InnovateTech",
+    "Description": "IT рішення для бізнесу",
+    "NumOfEmployees": 75,
+    "Address": "Харків, пл. Свободи, 4",
+    "DateOfFoundation": "2023-08-30T00:00:00",
+    "Area": 1,
+    "CEO": {
+      "name": "Ігор",
+      "surname": "Сидоренко",
+      "patronymic": "Олегович"
+    }
+  },
+  {
+    "ID": 9,
+    "Name": "BlackRock Consulting",
+    "Description": "Бізнес консалтинг",
+    "NumOfEmployees": 120,
+    "Address": "Нью-Йорк, Wall Street, 200",
+    "DateOfFoundation": "2021-12-01T00:00:00",
+    "Area": 2,
+    "CEO": {
+      "name": "Thomas",
+      "surname": "Black",
+      "patronymic": null
+    }
+  },
+  {
+    "ID": 10,
+    "Name": "SmallStart",
+    "Description": "Невеликий стартап",
+    "NumOfEmployees": 5,
+    "Address": "Дніпро, Європейська, 3",
+    "DateOfFoundation": "2024-01-15T00:00:00",
+    "Area": 0,
+    "CEO": {
+      "name": "Олена",
+      "surname": "Мельник",
+      "patronymic": "Сергіївна"
+    }
+  }
+]

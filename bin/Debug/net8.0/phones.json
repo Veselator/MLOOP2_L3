@@ -1,0 +1,158 @@
+[
+  {
+    "Name": "iPhone 15 Pro",
+    "Manufacturer": "Apple",
+    "Price": 1199.99,
+    "DateOfRelease": "2023-09-22T00:00:00"
+  },
+  {
+    "Name": "Galaxy S24 Ultra",
+    "Manufacturer": "Samsung",
+    "Price": 1299.99,
+    "DateOfRelease": "2024-01-17T00:00:00"
+  },
+  {
+    "Name": "Pixel 8 Pro",
+    "Manufacturer": "Google",
+    "Price": 999.99,
+    "DateOfRelease": "2023-10-12T00:00:00"
+  },
+  {
+    "Name": "iPhone 14",
+    "Manufacturer": "Apple",
+    "Price": 799.99,
+    "DateOfRelease": "2022-09-16T00:00:00"
+  },
+  {
+    "Name": "Galaxy A54",
+    "Manufacturer": "Samsung",
+    "Price": 449.99,
+    "DateOfRelease": "2023-03-24T00:00:00"
+  },
+  {
+    "Name": "OnePlus 12",
+    "Manufacturer": "OnePlus",
+    "Price": 899.99,
+    "DateOfRelease": "2024-01-23T00:00:00"
+  },
+  {
+    "Name": "Pixel 7a",
+    "Manufacturer": "Google",
+    "Price": 499.99,
+    "DateOfRelease": "2023-05-11T00:00:00"
+  },
+  {
+    "Name": "iPhone SE",
+    "Manufacturer": "Apple",
+    "Price": 429.99,
+    "DateOfRelease": "2022-03-18T00:00:00"
+  },
+  {
+    "Name": "Galaxy S23",
+    "Manufacturer": "Samsung",
+    "Price": 799.99,
+    "DateOfRelease": "2023-02-17T00:00:00"
+  },
+  {
+    "Name": "Xiaomi 14",
+    "Manufacturer": "Xiaomi",
+    "Price": 699.99,
+    "DateOfRelease": "2023-10-26T00:00:00"
+  },
+  {
+    "Name": "Nokia G42",
+    "Manufacturer": "Nokia",
+    "Price": 199.99,
+    "DateOfRelease": "2023-06-14T00:00:00"
+  },
+  {
+    "Name": "OnePlus Nord 3",
+    "Manufacturer": "OnePlus",
+    "Price": 549.99,
+    "DateOfRelease": "2023-07-05T00:00:00"
+  },
+  {
+    "Name": "OnePlus Nord 3",
+    "Manufacturer": "OnePlus",
+    "Price": 549.99,
+    "DateOfRelease": "2023-07-06T00:00:00"
+  },
+  {
+    "Name": "OnePlus Nord 3",
+    "Manufacturer": "OnePlus",
+    "Price": 549.99,
+    "DateOfRelease": "2023-07-08T00:00:00"
+  },
+  {
+    "Name": "iPhone 13 Mini",
+    "Manufacturer": "Apple",
+    "Price": 629.99,
+    "DateOfRelease": "2021-09-24T00:00:00"
+  },
+  {
+    "Name": "Redmi Note 13",
+    "Manufacturer": "Xiaomi",
+    "Price": 249.99,
+    "DateOfRelease": "2023-09-21T00:00:00"
+  },
+  {
+    "Name": "Galaxy Z Fold 5",
+    "Manufacturer": "Samsung",
+    "Price": 1799.99,
+    "DateOfRelease": "2023-08-11T00:00:00"
+  },
+  {
+    "Name": "Pixel 6",
+    "Manufacturer": "Google",
+    "Price": 599.99,
+    "DateOfRelease": "2021-10-28T00:00:00"
+  },
+  {
+    "Name": "Pixel 6",
+    "Manufacturer": "Google",
+    "Price": 599.99,
+    "DateOfRelease": "2021-09-21T00:00:00"
+  },
+  {
+    "Name": "Nothing Phone 2",
+    "Manufacturer": "Nothing",
+    "Price": 679.99,
+    "DateOfRelease": "2023-07-11T00:00:00"
+  },
+  {
+    "Name": "iPhone 12",
+    "Manufacturer": "Apple",
+    "Price": 699.99,
+    "DateOfRelease": "2020-10-23T00:00:00"
+  },
+  {
+    "Name": "Moto G Power",
+    "Manufacturer": "Motorola",
+    "Price": 179.99,
+    "DateOfRelease": "2023-04-13T00:00:00"
+  },
+  {
+    "Name": "Huawei P60 Pro",
+    "Manufacturer": "Huawei",
+    "Price": 1199.99,
+    "DateOfRelease": "2023-03-23T00:00:00"
+  },
+  {
+    "Name": "Sony Xperia 1 V",
+    "Manufacturer": "Sony",
+    "Price": 1399.99,
+    "DateOfRelease": "2023-05-19T00:00:00"
+  },
+  {
+    "Name": "Budget Phone X1",
+    "Manufacturer": "NoName",
+    "Price": 89.99,
+    "DateOfRelease": "2023-01-15T00:00:00"
+  },
+  {
+    "Name": "Premium Ultra Max",
+    "Manufacturer": "LuxuryTech",
+    "Price": 2499.99,
+    "DateOfRelease": "2024-06-01T00:00:00"
+  }
+]
