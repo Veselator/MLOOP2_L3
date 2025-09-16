@@ -39,6 +39,7 @@ namespace MLOOP2_L3.T1
             List<Company> companiesOver150days = companies.Where(c => DateTimeDifference.GetDifferenceInDays(DateTime.Now, c.DateOfFoundation) > 150).ToList();
             List<Company> companiesBreakingBad = companies.Where(c => c.CEO.surname != null && c.CEO.surname.ToLower().Equals("black") && c.Name != null && c.Name.Contains("White")).ToList();
 
+            Console.WriteLine();
             FinePrint<Company>.PrintList(companies, "Всі компанії");
             FinePrint<Company>.PrintList(companiesCalledFood, "Компанії із назвою \"Food\"");
             FinePrint<Company>.PrintList(companiesInMarketing, "Компанії із області маркетингу");

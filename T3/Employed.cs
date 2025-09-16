@@ -1,4 +1,5 @@
-﻿
+﻿using System.Text.Json.Serialization;
+
 namespace MLOOP2_L3.T3
 {
     internal class Employed
@@ -33,15 +34,24 @@ namespace MLOOP2_L3.T3
 
         public JobTitle jobTitle { get; init; }
         public FullName fullName { get; init; }
-        public decimal HourlyWage { get; init; }
+        public decimal HourlyWage { get; init; } // USD
         public int HoursPerWeek { get; init; }
+
+        [JsonIgnore]
         public decimal MounthlyWage => HoursPerWeek * HourlyWage;
         public DateTime DateOfHiring { get; init; }
+
+        [JsonIgnore]
         public int ExperienceInDays => DateTimeDifference.GetDifferenceInDays(DateTime.Now, DateOfHiring);
+        [JsonIgnore]
         public int ExperienceInYears => DateTimeDifference.GetDifferenceInYears(DateTime.Now, DateOfHiring);
+
         public DateTime DateOfBirth { get; init; }
+        [JsonIgnore]
         public int Age => DateTimeDifference.GetDifferenceInYears(DateTime.Now, DateOfBirth);
         public List<Education> Educations { get; init; }
+
+        [JsonIgnore]
         public bool DoesGraduetedHighEducation => 
             Educations.Contains(Education.PhD) ||
             Educations.Contains(Education.DSc) ||
@@ -49,5 +59,9 @@ namespace MLOOP2_L3.T3
             Educations.Contains(Education.ThD) ||
             Educations.Contains(Education.JSD);
 
+        public override string ToString()
+        {
+            return $"{fullName.name} {fullName.surname} {fullName.patronymic}";
+        }
     }
 }
