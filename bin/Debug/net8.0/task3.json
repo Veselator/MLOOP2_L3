@@ -1,0 +1,421 @@
+{
+  "Name": "ТехноІнновації ЛТД",
+  "Employee": [
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Володимир",
+        "surname": "Іваненко",
+        "patronymic": "Петрович"
+      },
+      "HourlyWage": 250.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2018-03-15T00:00:00",
+      "DateOfBirth": "1985-10-12T00:00:00",
+      "Educations": [4, 5]
+    },
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Марія",
+        "surname": "Коваленко",
+        "patronymic": "Василівна"
+      },
+      "HourlyWage": 280.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2015-07-22T00:00:00",
+      "DateOfBirth": "1982-04-18T00:00:00",
+      "Educations": [4, 6]
+    },
+    {
+      "jobTitle": 2,
+      "fullName": {
+        "name": "Олександр",
+        "surname": "Петренко",
+        "patronymic": "Михайлович"
+      },
+      "HourlyWage": 180.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2020-01-10T00:00:00",
+      "DateOfBirth": "1990-10-05T00:00:00",
+      "Educations": [3, 4]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Vladimir",
+        "surname": "Smith",
+        "patronymic": null
+      },
+      "HourlyWage": 150.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2021-06-01T00:00:00",
+      "DateOfBirth": "1995-02-14T00:00:00",
+      "Educations": [3]
+    },
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Анна",
+        "surname": "Сидорова",
+        "patronymic": "Олегівна"
+      },
+      "HourlyWage": 260.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2016-11-08T00:00:00",
+      "DateOfBirth": "1988-10-25T00:00:00",
+      "Educations": [4, 5]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Ігор",
+        "surname": "Мельник",
+        "patronymic": "Сергійович"
+      },
+      "HourlyWage": 160.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2019-09-20T00:00:00",
+      "DateOfBirth": "1992-07-03T00:00:00",
+      "Educations": [3, 4]
+    },
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Володимир",
+        "surname": "Козлов",
+        "patronymic": "Андрійович"
+      },
+      "HourlyWage": 240.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2017-05-12T00:00:00",
+      "DateOfBirth": "1987-12-08T00:00:00",
+      "Educations": [4]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Олена",
+        "surname": "Бондаренко",
+        "patronymic": "Ігорівна"
+      },
+      "HourlyWage": 145.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2022-02-15T00:00:00",
+      "DateOfBirth": "1993-10-30T00:00:00",
+      "Educations": [3]
+    },
+    {
+      "jobTitle": 2,
+      "fullName": {
+        "name": "Сергій",
+        "surname": "Ткаченко",
+        "patronymic": "Володимирович"
+      },
+      "HourlyWage": 320.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2012-08-01T00:00:00",
+      "DateOfBirth": "1975-03-22T00:00:00",
+      "Educations": [4, 5, 6]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Тетяна",
+        "surname": "Лисенко",
+        "patronymic": "Петрівна"
+      },
+      "HourlyWage": 155.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2020-10-05T00:00:00",
+      "DateOfBirth": "1991-10-15T00:00:00",
+      "Educations": [3, 4]
+    },
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Дмитро",
+        "surname": "Гриценко",
+        "patronymic": "Олександрович"
+      },
+      "HourlyWage": 270.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2014-04-18T00:00:00",
+      "DateOfBirth": "1983-08-11T00:00:00",
+      "Educations": [4, 5]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Володимир",
+        "surname": "Новак",
+        "patronymic": "Іванович"
+      },
+      "HourlyWage": 165.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2023-01-20T00:00:00",
+      "DateOfBirth": "1996-06-28T00:00:00",
+      "Educations": [3]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Микола",
+        "surname": "Шевченко",
+        "patronymic": "Васильович"
+      },
+      "HourlyWage": 140.00,
+      "HoursPerWeek": 35,
+      "DateOfHiring": "2024-08-15T00:00:00",
+      "DateOfBirth": "1998-03-12T00:00:00",
+      "Educations": [2]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Катерина",
+        "surname": "Романова",
+        "patronymic": "Дмитрівна"
+      },
+      "HourlyWage": 135.00,
+      "HoursPerWeek": 30,
+      "DateOfHiring": "2024-09-01T00:00:00",
+      "DateOfBirth": "1999-11-22T00:00:00",
+      "Educations": [1, 2]
+    },
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Віталій",
+        "surname": "Кравченко",
+        "patronymic": "Анатолійович"
+      },
+      "HourlyWage": 290.00,
+      "HoursPerWeek": 45,
+      "DateOfHiring": "2013-02-28T00:00:00",
+      "DateOfBirth": "1981-07-19T00:00:00",
+      "Educations": [4, 5]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Юлія",
+        "surname": "Павленко",
+        "patronymic": "Романівна"
+      },
+      "HourlyWage": 170.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2021-11-10T00:00:00",
+      "DateOfBirth": "1994-01-08T00:00:00",
+      "Educations": [3]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Андрій",
+        "surname": "Савченко",
+        "patronymic": "Миколайович"
+      },
+      "HourlyWage": 125.00,
+      "HoursPerWeek": 20,
+      "DateOfHiring": "2024-07-03T00:00:00",
+      "DateOfBirth": "2001-05-14T00:00:00",
+      "Educations": [0]
+    },
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Наталія",
+        "surname": "Біленко",
+        "patronymic": "Сергіївна"
+      },
+      "HourlyWage": 275.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2016-06-15T00:00:00",
+      "DateOfBirth": "1984-09-30T00:00:00",
+      "Educations": [4, 8]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Роман",
+        "surname": "Федоренко",
+        "patronymic": "Олексійович"
+      },
+      "HourlyWage": 180.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2019-04-22T00:00:00",
+      "DateOfBirth": "1989-12-05T00:00:00",
+      "Educations": [3, 4]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Світлана",
+        "surname": "Горобець",
+        "patronymic": "Володимирівна"
+      },
+      "HourlyWage": 190.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2018-12-01T00:00:00",
+      "DateOfBirth": "1986-02-17T00:00:00",
+      "Educations": [3, 4]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Павло",
+        "surname": "Денисенко",
+        "patronymic": "Іванович"
+      },
+      "HourlyWage": 120.00,
+      "HoursPerWeek": 25,
+      "DateOfHiring": "2024-05-20T00:00:00",
+      "DateOfBirth": "2000-08-03T00:00:00",
+      "Educations": [1]
+    },
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Ірина",
+        "surname": "Мороз",
+        "patronymic": "Петрівна"
+      },
+      "HourlyWage": 265.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2015-09-14T00:00:00",
+      "DateOfBirth": "1980-06-11T00:00:00",
+      "Educations": [4, 5, 7]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Максим",
+        "surname": "Литвиненко",
+        "patronymic": "Андрійович"
+      },
+      "HourlyWage": 175.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2020-08-25T00:00:00",
+      "DateOfBirth": "1993-04-29T00:00:00",
+      "Educations": [3]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Валентина",
+        "surname": "Степаненко",
+        "patronymic": "Миколаївна"
+      },
+      "HourlyWage": 110.00,
+      "HoursPerWeek": 15,
+      "DateOfHiring": "2024-03-12T00:00:00",
+      "DateOfBirth": "2002-01-25T00:00:00",
+      "Educations": [0, 1]
+    },
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Олег",
+        "surname": "Кондратенко",
+        "patronymic": "Сергійович"
+      },
+      "HourlyWage": 285.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2014-01-09T00:00:00",
+      "DateOfBirth": "1979-11-16T00:00:00",
+      "Educations": [4, 5]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Лариса",
+        "surname": "Ющенко",
+        "patronymic": "Олександрівна"
+      },
+      "HourlyWage": 160.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2021-03-18T00:00:00",
+      "DateOfBirth": "1995-07-07T00:00:00",
+      "Educations": [3]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Вадим",
+        "surname": "Приходько",
+        "patronymic": "Леонідович"
+      },
+      "HourlyWage": 130.00,
+      "HoursPerWeek": 32,
+      "DateOfHiring": "2024-06-08T00:00:00",
+      "DateOfBirth": "1997-09-21T00:00:00",
+      "Educations": [2]
+    },
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Галина",
+        "surname": "Нестеренко",
+        "patronymic": "Василівна"
+      },
+      "HourlyWage": 300.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2011-10-30T00:00:00",
+      "DateOfBirth": "1976-10-03T00:00:00",
+      "Educations": [4, 5, 6]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Артем",
+        "surname": "Левченко",
+        "patronymic": "Вікторович"
+      },
+      "HourlyWage": 185.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2022-07-14T00:00:00",
+      "DateOfBirth": "1991-03-03T00:00:00",
+      "Educations": [3, 4]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Людмила",
+        "surname": "Карпенко",
+        "patronymic": "Іванівна"
+      },
+      "HourlyWage": 115.00,
+      "HoursPerWeek": 18,
+      "DateOfHiring": "2024-04-25T00:00:00",
+      "DateOfBirth": "2003-12-10T00:00:00",
+      "Educations": [0]
+    },
+    {
+      "jobTitle": 1,
+      "fullName": {
+        "name": "Станіслав",
+        "surname": "Бурлака",
+        "patronymic": "Геннадійович"
+      },
+      "HourlyWage": 295.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2013-05-17T00:00:00",
+      "DateOfBirth": "1978-01-28T00:00:00",
+      "Educations": [4, 5, 9]
+    },
+    {
+      "jobTitle": 0,
+      "fullName": {
+        "name": "Діана",
+        "surname": "Ткач",
+        "patronymic": "Русланівна"
+      },
+      "HourlyWage": 155.00,
+      "HoursPerWeek": 40,
+      "DateOfHiring": "2023-09-11T00:00:00",
+      "DateOfBirth": "1996-05-19T00:00:00",
+      "Educations": [2, 3]
+    }
+  ]
+}
