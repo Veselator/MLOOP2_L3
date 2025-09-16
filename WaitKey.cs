@@ -10,7 +10,7 @@ namespace MLOOP2_L3
     {
         public static void WaitForKey()
         {
-            Console.WriteLine(" Натисніть будь-яку клавішу для продовження");
+            Console.Write(" Натисніть будь-яку клавішу для продовження\n ");
             Console.ReadKey();
         }
         public static void WaitForKeyAndClear()
