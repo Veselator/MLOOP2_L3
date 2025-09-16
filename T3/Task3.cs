@@ -51,7 +51,7 @@ namespace MLOOP2_L3.T3
             Dictionary<Employed.JobTitle, List<Employed>> peopleWhoBornAtOctober = employee.Where(e => e.DateOfBirth.Month == 10).GroupBy(e => e.jobTitle).ToDictionary(group => group.Key, group => group.ToList());
 
             List<Employed> allVladimirs = employee.Where(e => e.fullName.name.ToLower() == "vladimir" || e.fullName.name.ToLower() == "володимир").ToList();
-            Employed youngestVladimir = employee.OrderBy(e => e.Age).First();
+            Employed youngestVladimir = allVladimirs.OrderBy(e => e.Age).First();
 
             Console.WriteLine("\n === СТАТИСТИКА ПІДПРИЄМСТВА ===");
             Console.WriteLine($" Назва компанії: {company.Name}");
